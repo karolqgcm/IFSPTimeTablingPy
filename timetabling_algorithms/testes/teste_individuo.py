@@ -10,7 +10,7 @@ import unittest
 
 individuo_a_ser_testado = individuo_criar()
 
-class TestarCriarIndividuo(unittest.TestCase):
+class TestarIndividuo(unittest.TestCase):
     def teste_individuo_fitness_nao_negativo(self):
         self.assertGreaterEqual(individuo_a_ser_testado.fitness_individuo, 0, "Fitness do indivíduo não é negativo")
     

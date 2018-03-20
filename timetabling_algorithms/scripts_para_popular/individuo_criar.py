@@ -12,6 +12,6 @@ def individuo_criar():
     gene2 = gene_criar()
     fitness_individuo = 0
     individuo_novo = Individuo(gene1,gene2,fitness_individuo)
-    print(individuo_novo.gene1.professor_disciplina, individuo_novo.gene2.professor_disciplina)
+    print(individuo_novo.gene1.professor_disciplina, individuo_novo.gene2.professor_disciplina, individuo_novo.fitness_individuo)
     return individuo_novo
 
