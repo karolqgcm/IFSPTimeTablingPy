@@ -4,7 +4,7 @@ Created on 12 de mar de 2018
 @author: karol
 '''
 import unittest
-from classes.gene import *
+from classes.gene_dia import *
 from scripts_para_popular.gene_criar import *
 
 gene_a_ser_testado = gene_criar()

@@ -6,7 +6,7 @@ Created on 20 de mar de 2018
 
 import random
 from classes.populacao import *
-from classes.individuo import *
+from classes.individuo_dia import *
 
 class Crossover:
     
@@ -29,7 +29,7 @@ class Crossover:
         genitores = self.selecionar_genitores()
         mae = genitores[0]
         pai = genitores[1]
-        filho = Individuo(mae.gene1, pai.gene2, 0)
+        filho = IndividuoDia(mae.gene1, pai.gene2, 0)
         self.populacao.append(filho)
    
         

@@ -4,7 +4,7 @@ Created on 9 de mar de 2018
 @author: karol
 '''
 
-from classes import individuo
+from classes.individuo_dia import *
 from scripts_para_popular.individuo_criar import *
 import unittest
 

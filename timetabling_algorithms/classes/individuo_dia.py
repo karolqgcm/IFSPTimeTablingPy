@@ -4,7 +4,7 @@ Created on 9 de mar de 2018
 @author: karol
 '''
 
-class Individuo(object):
+class IndividuoDia(object):
     
     def __init__(self, gene1, gene2, fitness_individuo):
         self.gene1 = gene1
